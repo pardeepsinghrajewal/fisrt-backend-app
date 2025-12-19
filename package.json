@@ -1,0 +1,17 @@
+{
+  "name": "first-backend",
+  "version": "1.0.0",
+  "description": "my first backend app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "Pardeep Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
