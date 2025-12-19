@@ -15,7 +15,11 @@ app.get('/test-2',(req,res)=>{
 })
 
 app.get('/test-3',(req,res)=>{
-    res.send('test-2 route')
+    res.send('test-3 route')
+})
+
+app.get('/test-4',(req,res)=>{
+    res.send('test-4 route')
 })
 
 app.listen(port, () => {
