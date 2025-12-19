@@ -14,6 +14,10 @@ app.get('/test-2',(req,res)=>{
     res.send('test-2 route')
 })
 
+app.get('/test-3',(req,res)=>{
+    res.send('test-2 route')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
